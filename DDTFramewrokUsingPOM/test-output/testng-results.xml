@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95412" started-at="2022-06-17T17:44:37Z" finished-at="2022-06-17T17:46:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95412" started-at="2022-06-17T17:44:37Z" finished-at="2022-06-17T17:46:12Z">
+      <class name="WebPgeScripts.ActitimeSccript">
+        <test-method status="PASS" signature="starttest()[pri:0, instance:WebPgeScripts.ActitimeSccript@7ce3cb8e]" name="starttest" is-config="true" duration-ms="1645" started-at="2022-06-17T23:14:37Z" finished-at="2022-06-17T23:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:WebPgeScripts.ActitimeSccript@7ce3cb8e]" name="openbrowser" is-config="true" duration-ms="70441" started-at="2022-06-17T23:14:39Z" finished-at="2022-06-17T23:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="validate()[pri:0, instance:WebPgeScripts.ActitimeSccript@7ce3cb8e]" name="validate" duration-ms="8020" started-at="2022-06-17T23:15:49Z" finished-at="2022-06-17T23:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="loginfunctionality()[pri:1, instance:WebPgeScripts.ActitimeSccript@7ce3cb8e]" name="loginfunctionality" duration-ms="6528" started-at="2022-06-17T23:15:57Z" finished-at="2022-06-17T23:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:WebPgeScripts.ActitimeSccript@7ce3cb8e]" name="closebrowser" is-config="true" duration-ms="4229" started-at="2022-06-17T23:16:04Z" finished-at="2022-06-17T23:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:WebPgeScripts.ActitimeSccript@7ce3cb8e]" name="endtest" is-config="true" duration-ms="4415" started-at="2022-06-17T23:16:08Z" finished-at="2022-06-17T23:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- WebPgeScripts.ActitimeSccript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

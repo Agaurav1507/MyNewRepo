@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="WebPgeScripts.DemoTransformer"/>
+  </listeners>
+  <test name="RetryMultiple(failed)" parallel="none">
+    <classes>
+      <class name="WebPgeScripts.check$Test001">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- WebPgeScripts.check$Test001 -->
+    </classes>
+  </test> <!-- RetryMultiple(failed) -->
+</suite> <!-- Failed suite [Suite] -->
